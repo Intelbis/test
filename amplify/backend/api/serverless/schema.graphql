@@ -1,0 +1,6 @@
+type Deals @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  description: String
+}
+ 
